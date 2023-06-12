@@ -5,8 +5,8 @@ const config: CapacitorConfig = {
   appName: "promptify",
   webDir: "out",
   server: {
-    url:"http://192.168.105.56:3000",
-    cleartext: true,
+    url: "https://promptify-blush.vercel.app",
+    androidScheme: "https",
   },
 };
 
